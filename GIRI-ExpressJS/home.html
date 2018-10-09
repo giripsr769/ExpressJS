@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="home.css">
+
+<h1 align="center">DATABASE</h1>
+<div id="adduser">
+    <form action="http://127.0.0.1:8081/create" method="POST">
+
+        <table>
+            <tr>
+                <td>
+                    <h2>ADD DETAILS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Id:
+                </td>
+                <td>
+                    <input type="number" name="id">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    NAME:
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DEPT:
+                </td>
+                <td>
+                    <input type="text" name="dept">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age:
+                </td>
+                <td>
+                    <input type="number" name="age">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button>Add</button>
+    </form>
+    </div>
+    <div id="right">
+
+    
+    <div id="view">
+        <form action="http://127.0.0.1:8081/User" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <h2>GET ID</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Id:</td>
+                    <td>
+                        <input type="text" name="id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>View</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="display">
+        <form action="http://127.0.0.1:8081/listUser" method="POST">
+            <h2>Select All</h2>
+            <button>Display</button>
+        </form>
+    </div >
+    <div id="delete">
+        <form action="http://127.0.0.1:8081/delete" method="POST">
+            <h2>DELETE</h2>
+            Id:
+            <input type="text" name="id">
+            <br>
+            <br>
+            <button>Delete</button>
+        </form>
+    </div>
+</div>
+    </body>
+
+</html>

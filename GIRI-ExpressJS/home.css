@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-family: 'Monotype Corsiva';
+    color: rgb(240, 227, 52);
+}
+#adduser{
+    border: 1px solid rgb(5, 139, 0);
+    width: 44%;
+    margin-left: 336px;
+    height: 286px;
+    padding: 64px;
+    display: inline-block;
+    color:  rgb(5, 139, 0);
+}
+#adduser button{
+    margin: 10px;
+    width: 125px;
+}
+
+#right{
+    border: 1px solid  rgb(5, 139, 0);
+    width: 53%;
+    padding: 5px;
+    margin-left: 336px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    color:  rgb(5, 139, 0);
+}
+#view{
+    border: 1px solid  rgb(5, 139, 0);
+    width: 41%;
+    padding: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+#display{
+    border: 1px solid  rgb(5, 139, 0);
+    width: 45%;
+    height: 123px;
+    padding: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+#delete{
+    border: 1px solid  rgb(5, 139, 0);
+    width: 41%;
+    padding: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    color:  rgb(5, 139, 0);
+}
